@@ -203,17 +203,25 @@ p {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+  margin-top: 190px;
+  margin-bottom: 20px;
+}
+
+.abonnement {
+  display: inline-flex;
+  align-items: center;
 }
 
 .mail p {
   color: var(--white, #fff);
   font-size: 20px;
   font-weight: 400;
+  text-align: center;
+  align-items: center;
 }
 
 .mail {
   display: flex;
-  width: 250px;
   height: 35px;
   padding: 5px 76px;
   justify-content: center;
