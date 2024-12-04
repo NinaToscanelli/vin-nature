@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-family: Lato;
+}
 a {
   color: inherit;
 }
@@ -24,4 +26,113 @@ video {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top p {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.langues {
+  display: flex;
+  width: 118px;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.burger {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-bottom: 71px;
+}
+
+.burger p {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.icônes {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.bouton {
+  display: flex;
+  padding: 31px 46px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--red, #f00);
+  background: var(--white, #fff);
+}
+
+h1 {
+  color: var(--red, #f00);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 117px;
+}
+h2 {
+  color: var(--red, #f00);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 56px;
+  margin-top: 220px;
+}
+h3 {
+  color: var(--red, #f00);
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 33px;
+}
+
+.philosophie {
+  text-align: center;
+}
+
+.vignerons {
+  text-align: center;
+}
+
+p {
+  color: var(--red, #f00);
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.plus {
+  margin-top: 66px;
+  text-decoration: underline;
+  color: #f00;
+  margin-bottom: 117px;
+}
+
+.réservation .accroche {
+  margin-top: 319px;
+}
+
+.réservation .bouton {
+  margin-top: 78px;
 }
