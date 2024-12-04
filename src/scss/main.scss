@@ -126,13 +126,24 @@ p {
   margin-top: 66px;
   text-decoration: underline;
   color: #f00;
-  margin-bottom: 117px;
+  margin-bottom: 191px;
 }
 
 .réservation .accroche {
-  margin-top: 319px;
+  margin-top: 337px;
 }
 
 .réservation .bouton {
   margin-top: 78px;
+}
+
+.discover {
+  margin-top: -220px !important;
+}
+
+.align-bottom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
