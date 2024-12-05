@@ -28,10 +28,16 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
+.header {
+  border-left: solid 50px white;
+  background-color: #f00;
+}
+
 .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 32px;
 }
 .top p {
   color: #fff;
@@ -95,7 +101,6 @@ h2 {
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 56px;
-  margin-top: 220px;
 }
 h3 {
   color: var(--red, #f00);
@@ -107,6 +112,39 @@ h3 {
 
 .philosophie {
   text-align: center;
+}
+
+.middle1 {
+  background-color: white;
+  padding-top: 71px;
+  padding-bottom: 113px;
+  border-left: solid 50px red;
+}
+.middle2 {
+  background-color: #f00;
+  padding-top: 107px;
+  padding-bottom: 120px;
+  border-left: solid 50px white;
+}
+
+.middle3 {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 121px;
+  border-left: solid 50px red;
+}
+
+.footer {
+  background-color: red;
+  padding-top: 37px;
+  padding-bottom: 41px;
+  border-left: solid 50px white;
+}
+
+.white p,
+.white h2,
+.white .plus {
+  color: var(--white, #fff);
 }
 
 .vignerons {
@@ -126,7 +164,6 @@ p {
   margin-top: 66px;
   text-decoration: underline;
   color: #f00;
-  margin-bottom: 191px;
 }
 
 .réservation .accroche {
@@ -222,7 +259,6 @@ p {
 
 .mail {
   display: flex;
-  height: 35px;
   padding: 5px 76px;
   justify-content: center;
   align-items: center;
@@ -240,7 +276,6 @@ p {
 .inscription {
   display: flex;
   width: 106px;
-  height: 35px;
   padding: 5px;
   justify-content: center;
   align-items: center;
