@@ -255,11 +255,13 @@ p {
   font-weight: 400;
   text-align: center;
   align-items: center;
+  width: fit-content;
 }
 
 .mail {
   display: flex;
-  padding: 5px 76px;
+  height: 35px;
+  width: 250px;
   justify-content: center;
   align-items: center;
   gap: 10px;
