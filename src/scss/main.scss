@@ -57,11 +57,9 @@ video {
 
 .burger {
   display: flex;
-  height: 24px;
   align-items: center;
-  gap: 30px;
+  justify-content: space-between;
   flex-shrink: 0;
-  justify-content: center;
   margin-bottom: 71px;
 }
 
@@ -69,7 +67,6 @@ video {
   color: #fff;
   font-family: Lato;
   font-size: 20px;
-  font-weight: 400;
 }
 
 .icônes {
@@ -86,6 +83,16 @@ video {
   gap: 10px;
   border: 1px solid var(--red, #f00);
   background: var(--white, #fff);
+  transition-property: color, background-color;
+  transition-duration: 0.5s;
+  color: var(--red, #f00);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.bouton:hover {
+  color: var(--white, #fff);
+  background: var(--red, #f00);
 }
 
 h1 {
@@ -166,6 +173,10 @@ p {
   color: #f00;
 }
 
+.raisin {
+  margin-top: 191px;
+}
+
 .réservation .accroche {
   margin-top: 337px;
 }
@@ -225,6 +236,7 @@ p {
 
 .bio {
   // margin-top: 173px;
+  display: flex;
   justify-content: right;
 }
 
@@ -368,4 +380,36 @@ a {
   padding-top: 71px;
   padding-bottom: 113px;
   border-left: solid 50px red;
+}
+.gouter {
+  margin-top: 141px;
+}
+
+.biorouge {
+  margin-top: 118px;
+  margin-bottom: 122px;
+}
+
+.reservation .accroche {
+  margin-top: 337px;
+}
+
+.reservation .bouton {
+  margin-top: 78px;
+}
+
+.reservation {
+  margin-top: -590px !important;
+}
+
+.bloc {
+  margin-top: -390px !important;
+}
+
+.titre {
+  margin-top: -117px !important;
+}
+
+.panier {
+  margin-top: -500px !important;
 }
