@@ -20,14 +20,6 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
-
 .header {
   border-left: solid 50px white;
   background-color: #f00;
@@ -185,6 +177,13 @@ p {
   margin-top: 78px;
 }
 
+.réservation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
 .discover {
   margin-top: -220px !important;
 }
@@ -204,6 +203,10 @@ p {
   margin-top: 47px;
 }
 
+.bas {
+  margin-top: 24px;
+}
+
 .infos p {
   color: #fff;
   font-size: 20px;
@@ -216,7 +219,11 @@ p {
   align-items: center;
   gap: 12px;
   // margin-top: 256px;
-  // margin-bottom: 47px;
+  //margin-bottom: 47px;
+}
+
+.infos {
+  margin-top: 24px;
 }
 
 .numéro p {
@@ -388,6 +395,8 @@ a {
 .biorouge {
   margin-top: 118px;
   margin-bottom: 122px;
+  display: flex;
+  justify-content: right;
 }
 
 .reservation .accroche {
@@ -399,17 +408,17 @@ a {
 }
 
 .reservation {
-  margin-top: -590px !important;
-}
-
-.bloc {
-  margin-top: -390px !important;
+  margin-top: -570px !important;
 }
 
 .titre {
-  margin-top: -117px !important;
+  margin-bottom: -100px !important;
 }
 
 .panier {
-  margin-top: -500px !important;
+  margin-bottom: 35px;
+}
+
+.bloc {
+  margin-bottom: 35px;
 }
