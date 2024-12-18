@@ -396,21 +396,12 @@ a {
 
 .biorouge {
   margin-top: 118px;
-  margin-bottom: 122px;
   display: flex;
   justify-content: right;
 }
 
-.reservation .accroche {
-  margin-top: 310px;
-}
-
 .reservation .bouton {
   margin-top: 78px;
-}
-
-.reservation {
-  margin-top: -570px !important;
 }
 
 .titre {
@@ -423,4 +414,11 @@ a {
 
 .bloc {
   margin-bottom: 35px;
+}
+
+.reservation-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
